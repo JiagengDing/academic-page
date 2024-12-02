@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jiageng's / Home Page"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jiageng Ding"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://jiageng.diing.uk
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -151,12 +151,55 @@ analytics:
     tracking_id          :
 
 
+
+# Site Author
+author:
+  name             : "Jiageng Ding"
+  avatar           : "profile-djg.jpg"
+  bio              : "M.Sc. at University of Bristol"
+  location         : "United Kingdom"
+  employer         :
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  email            : "jiageng@mail.diing.uk"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "JiagengDing"
+  google_plus      :
+  keybase          :
+  instagram        : "ding.jg"
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "jiagengding"
+  orcid            : #"http://orcid.org/yourorcidurl"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "JiagengDing"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
 # Reading Files
 include:
   - .htaccess
   - _pages
   - files
 exclude:
+  - _pages/cv.md
+  - _pages/publications.md
+  - _pages/talks.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
